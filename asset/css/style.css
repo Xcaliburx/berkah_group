@@ -1,0 +1,213 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: block;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ), url("/asset/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: fit-content;
+    padding-bottom: 80px;
+}
+
+.header .logo {
+    margin-left: 12rem;
+    margin-top: -2rem;
+}
+
+.header .caption {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* About Us */
+.about-us {
+    display: block;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.about-content p {
+    background-color: #050b0e;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: #FFD966 solid 2px;
+}
+
+/* Layanan Kami */
+.layanan-kami {
+    display: block;
+    background-color: #050b0e;
+    height: fit-content;
+    padding-bottom: 150px; 
+}
+
+.num {
+    border-radius: 50%;
+    width: fit-content;
+    padding: 10px 20px;
+    background: #0a68b0;
+    text-align: center;
+    border: #FFD966 solid 2px;
+}
+
+/* Project Kami */
+.project {
+    display: block;
+    background-color: #050b0e;
+    height: fit-content;
+    padding-bottom: 80px; 
+}
+
+/* Image Hover */
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+}
+  
+.content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+  
+.content:hover .content-overlay{
+    opacity: 1;
+}
+  
+.content-image{
+    width: 400px;
+}
+  
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+  
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+  
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+  
+.content-details p{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-top{
+    top: 20%;
+}
+
+/* Contact Us */
+.contact-us {
+    display: block;
+    height: fit-content;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.contact-us .contact {
+    background-color: #050b0e;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.icon {
+    border-radius: 50%;
+    width: fit-content;
+    padding: 20px;
+    background: #0a68b0;
+    text-align: center;
+    border: #FFD966 solid 2px;
+}
+
+/* Floating icon whatsapp */
+.whatsapp {
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	bottom: 30px;
+	right: 40px;
+	background-color: #25d366;
+    padding-left: 3px;
+    padding-top: 3px;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.whatsapp {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* Footer */
