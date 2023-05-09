@@ -21,8 +21,8 @@ h1, h4 {
 }
 
 .header .logo {
-    margin-left: 12rem;
-    margin-top: -2rem;
+    font-size: 80px;
+    margin-bottom: 180px;
 }
 
 .header .caption {
@@ -228,8 +228,10 @@ h1, h4 {
 }
 
 @media screen and (max-width: 576px) {
-    .logo img {
-        margin-left: -180px;
+    .header .logo {
+        padding-top: 20px;
+        font-size: 25px;
+        margin-bottom: 100px;
     }
 
     .caption .caps {
@@ -274,6 +276,12 @@ h1, h4 {
         margin-top: 20px;
     }
 
+    .content-image{
+        display: block;
+        margin: auto;
+        width: 330px;
+    }
+
     .contact-us {
         padding-bottom: 20px;
     }
@@ -286,8 +294,10 @@ h1, h4 {
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .logo img {
-        margin-left: -160px;
+    .header .logo {
+        padding-top: 20px;
+        font-size: 50px;
+        margin-bottom: 100px;
     }
 
     .caption .caps {
@@ -305,9 +315,12 @@ h1, h4 {
     }
 
     .project .content {
-        width: 100%;
         margin: auto;
         margin-top: 20px;
+    }
+
+    .content-image{
+        width: 330px;
     }
 
     .contact-list .contacts {
