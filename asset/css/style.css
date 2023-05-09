@@ -88,6 +88,12 @@ h1, h4 {
     padding-bottom: 80px; 
 }
 
+.project .content {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
 /* Image Hover */
 .content {
     position: relative;
