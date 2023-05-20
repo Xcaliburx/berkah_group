@@ -289,7 +289,7 @@ h1, h4 {
     .content-image{
         display: block;
         margin: auto;
-        width: 180px !important;
+        width: 43vw !important;
     }
 
     .content h3{
@@ -297,7 +297,7 @@ h1, h4 {
     }
 
     .head img{
-        width: 390px !important;
+        width: 92vw !important;
     }
 
     .head h3{
